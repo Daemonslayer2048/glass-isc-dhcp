@@ -54,7 +54,7 @@ router.post('/', authorize.auth, function (req, res, next) {
 	 *
 	 * @type {string}
 	 */
-	let service_name = "isc-dhcp-server";
+	let service_name = "dhcpd";
 
 	/**
 	 * Redhat derivatives use a different service name
